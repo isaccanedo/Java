@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+/**
+ * 
+ * @author Isac
+ *
+ */
+
+public class Addition {
+
+	public static void main(String[] args) {
+
+		// Criar um scanner para obter entrada a partir da janela do prompt de
+		// comando
+		Scanner s = new Scanner(System.in);
+
+		int n1;
+		int n2;
+		int soma;
+
+		System.out.println("Entre com o primeiro número: ");// Prompt
+		n1 = s.nextInt();// Lê o primeiro número
+
+		System.out.println("Entre com o segundo número: ");
+		n2 = s.nextInt();
+
+		soma = n1 + n2;
+
+		System.out.printf("A soma é %d%n", soma);
+
+	}
+
+}
