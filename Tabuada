@@ -1,0 +1,31 @@
+package exemplo;
+
+import java.util.Scanner;
+
+/**
+ * 
+ * @author Isac
+ *
+ */
+
+public class Tabuada {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		// int multiplicacao = 2;
+		int tabuada = 10;
+		System.out.println("Digite o número da tabuada\n");
+		int multiplicacao = sc.nextInt();
+
+		for (int b = 0; b <= tabuada; b++) {
+
+			// for (int a = 0; a <= tabuada; a++) {
+
+			int resultado = b * multiplicacao;
+
+			System.out.println(b + "x" + multiplicacao + "=" + resultado);
+
+		}
+	}
+}
